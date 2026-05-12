@@ -1,0 +1,12 @@
+services:
+  nextcloud-talk-hpb:
+    image: ghcr.io/nextcloud-releases/aio-talk:latest
+    container_name: nextcloud-talk-hpb
+    restart: always
+    init: true
+    env_file:
+      - .env
+    ports:
+      - "127.0.0.1:8081:8081/tcp"
+      - "3478:3478/tcp"
+      - "3478:3478/udp"

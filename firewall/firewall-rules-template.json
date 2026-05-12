@@ -1,0 +1,72 @@
+[
+  {
+    "name": "SSH",
+    "rule_id": "CHANGE-ME-SSH",
+    "type": "INGRESS",
+    "protocol": "TCP",
+    "source_ip": "YOUR_PUBLIC_IP/32",
+    "icmp_code": null,
+    "source_mac": null,
+    "ipVersion": "IPv4",
+    "port_range_start": 22,
+    "port_range_end": 22,
+    "icmp_type": null,
+    "target_ip": null
+  },
+  {
+    "name": "HTTP Webserver",
+    "rule_id": "CHANGE-ME-HTTP",
+    "type": "INGRESS",
+    "protocol": "TCP",
+    "source_ip": null,
+    "icmp_code": null,
+    "source_mac": null,
+    "ipVersion": "IPv4",
+    "port_range_start": 80,
+    "port_range_end": 80,
+    "icmp_type": null,
+    "target_ip": null
+  },
+  {
+    "name": "HTTPS Webserver",
+    "rule_id": "CHANGE-ME-HTTPS",
+    "type": "INGRESS",
+    "protocol": "TCP",
+    "source_ip": null,
+    "icmp_code": null,
+    "source_mac": null,
+    "ipVersion": "IPv4",
+    "port_range_start": 443,
+    "port_range_end": 443,
+    "icmp_type": null,
+    "target_ip": null
+  },
+  {
+    "name": "TURN TCP",
+    "rule_id": "CHANGE-ME-TURN-TCP",
+    "type": "INGRESS",
+    "protocol": "TCP",
+    "source_ip": null,
+    "icmp_code": null,
+    "source_mac": null,
+    "ipVersion": "IPv4",
+    "port_range_start": 3478,
+    "port_range_end": 3478,
+    "icmp_type": null,
+    "target_ip": null
+  },
+  {
+    "name": "TURN UDP",
+    "rule_id": "CHANGE-ME-TURN-UDP",
+    "type": "INGRESS",
+    "protocol": "UDP",
+    "source_ip": null,
+    "icmp_code": null,
+    "source_mac": null,
+    "ipVersion": "IPv4",
+    "port_range_start": 3478,
+    "port_range_end": 3478,
+    "icmp_type": null,
+    "target_ip": null
+  }
+]

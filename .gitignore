@@ -1,0 +1,16 @@
+.env
+.env.*
+!.env.example
+
+node_modules/
+package-lock.json
+playwright-report/
+test-results/
+
+__pycache__/
+*.pyc
+
+*.log
+*.bak
+*.backup
+.DS_Store
