@@ -12,7 +12,6 @@ Public, sanitized documentation for deploying a **Nextcloud Talk High-Performanc
 - TURN on port `3478`
 - Optional Playwright load test with fake browser participants
 
-This repository intentionally uses **dummy domains, dummy IPs, and placeholder secrets**.
 
 ## Example architecture
 
@@ -28,7 +27,7 @@ This repository intentionally uses **dummy domains, dummy IPs, and placeholder s
 | Public TURN port | `3478/tcp` and `3478/udp` |
 | Example public IP | `203.0.113.10` |
 
-`203.0.113.10` is an example-only documentation IP. Replace it with your own server IP.
+`203.0.113.10` is an example-only
 
 ## Repository structure
 
@@ -53,19 +52,6 @@ This repository intentionally uses **dummy domains, dummy IPs, and placeholder s
     ├── talk-load-test.js
     └── ws-smoke-test.py
 ```
-
-## Security rules for this public repo
-
-Do not commit:
-
-- real `.env`
-- real domains if you do not want them public
-- real public IPs
-- real user credentials
-- real call links / room tokens
-- real TURN or signaling secrets
-- provider account identifiers
-- screenshots showing admin panels or private configuration
 
 Use:
 
